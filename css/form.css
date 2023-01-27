@@ -1,0 +1,152 @@
+.tic-one{
+  display: flex;
+  justify-content:space-between;
+  align-items: center;
+
+}
+.et-one{
+  font-size: 38px;
+}
+.et-two{
+  font-size: 20px;
+}
+.tic-two{
+  width: 84px;
+  height: 80px;
+  /* position: relative;
+  right:10rem; */
+ 
+}
+.user-details{
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  /* margin-bottom: 1rem; */
+}
+.company-form{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.tail-three p{
+   display: flex;
+  justify-content: center; 
+  align-items: center;
+  text-align: center;
+}
+.input-box{
+  display: flex;
+  /* justify-content: center;
+  text-align: center;
+  align-items: center; */
+}
+.requirement{
+  font-size: 22px;
+  display: flex;
+  margin-bottom: 1rem;
+  position: relative;
+  left:3rem; 
+  
+}
+.form-hard{
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  gap:150px;
+  margin-bottom: 20px;
+}
+.form-soft{
+  position: relative;
+  left:70px;
+}
+.checkbox1{
+  width: 35px;
+  height: 35px;
+}
+.info-one{
+  width: 65px;
+  height: 27px;
+  position: relative;
+  bottom: 12px;
+}
+.enquiry p{
+  font-size: 22px;
+  
+}
+.box-space{
+  width: 1021px;
+  height: 154px;
+  margin-bottom: 2rem;
+  border:1px solid #4569B38C;
+  border-radius: 6px;
+}
+.btn40{
+ display:flex;
+ justify-content: center;
+ align-items: center;
+  background-color: #0F4DC2; 
+position: absolute;
+left:9rem;
+padding: 20px 90px;
+border-radius: 9px;
+
+}
+.form-one{
+  margin: 8rem;
+}
+.details-one{
+  border: 1px solid #4569B38C;
+  width: 502px;
+  height: 57px;
+}
+.details{
+  font-size: 22px;
+  padding-right: 5rem;
+}
+.Email-form{
+  font-size: 22px;
+  padding-right: 5rem;
+  
+}
+.tail-three{
+  
+}
+.output-box{
+ 
+}
+.user-details{
+  gap:70px
+}
+.company-form{
+  gap:70px;
+  padding-bottom: 1rem;
+}
+@media(max-width:768px){
+  .tic-one{
+    display:block;
+  }
+  .tic-two{
+    width: 50px;
+  height: 50px;
+  position: relative; 
+  
+
+  }
+ 
+  .user-details{
+    display:block;
+  }
+  .company-form{
+    display: block;
+  }
+  .form-hard{
+    display:block;
+  }
+  .form-soft{
+    display: block;
+    align-items: start;
+    position: relative;
+    right:50rem;
+  }
+}
